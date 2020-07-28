@@ -1,0 +1,35 @@
+{
+    "name": "kyrne/landing-page",
+    "description": "Customizable landing page for non-logged in users",
+    "type": "flarum-extension",
+    "keywords": ["customization", "flarum", "landing"],
+    "license": "GPL-3.0+",
+    "version": "v0.1.0-beta.2",
+    "authors": [
+        {
+            "name": "John Hearfield",
+            "email": "dev@findingjohn.xyz"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/kyrne/landing-page"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kyrne\\Landing\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Landing Page",
+            "icon": {
+                "name": "fas fa-home",
+                "backgroundColor": "#ecf0f1",
+                "color": "#34495e"
+            }
+        }
+    }
+}
