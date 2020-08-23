@@ -25,10 +25,16 @@
     "extra": {
         "flarum-extension": {
             "title": "Landing Page",
-            "icon": {
-                "name": "fas fa-home",
-                "backgroundColor": "#ecf0f1",
-                "color": "#34495e"
+            "icon": "fas fa-home",
+            "info": {
+                "link": "https://github.com/KyrneDev/landing-page/",
+                "location": "Github"
+            },
+            "extra": {
+                "icon": "fab fa-github",
+                "link": "https://github.com/johnhearfield/flarum-ext-landing-page",
+                "title": "Original",
+                "location": "Github"
             }
         }
     }
