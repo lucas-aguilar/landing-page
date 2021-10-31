@@ -1,5 +1,5 @@
 {
-    "name": "kyrne/landing-page",
+    "name": "lucas-aguilar/landing-page",
     "description": "Customizable landing page for non-logged in users",
     "type": "flarum-extension",
     "keywords": ["customization", "flarum", "landing"],
@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/kyrne/landing-page"
+        "source": "https://github.com/lucas-aguilar/landing-page"
     },
     "require": {
         "flarum/core": "^1.0"
@@ -27,7 +27,7 @@
             "title": "Landing Page",
             "icon": "fas fa-home",
             "info": {
-                "link": "https://github.com/KyrneDev/landing-page/",
+                "link": "https://github.com/lucas-aguilar/landing-page/",
                 "location": "Github"
             },
             "extra": {
